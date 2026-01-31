@@ -27,14 +27,14 @@ By following this guide, you will:
 
 ## Key Mercedes Modules You Can Work With
 
-| Module              | What It Does                                                      | What You Can Do With Tools                                               | Image                           |
-| ------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
-| **ECU**             | Engine Control Unit – manages fuel, ignition, emissions           | Read data, test sensors, reprogram ECU functions                         | ![ECU](images/ecu.jpg)          |
-| **TCU / VGS**       | Transmission Control Unit – controls automatic gear shifts        | Test adaptive values, reset learned behavior, reprogram shifting logic   | ![TCU](images/tcu.jpg)          |
-| **EIS / EZS**       | Electronic Ignition Switch – authorizes keys, manages immobilizer | Read module info, calculate passwords, program new keys, reset functions | ![EIS](images/eis.jpg)          |
-| **ELV / ESL**       | Steering Lock – prevents unauthorized starts                      | Test locking/unlocking, program replacement locks, emulate ELV/ESL       | ![ELV](images/elv.jpg)          |
-| **ISM / Dashboard** | Instrument Cluster Module – shows speed, RPM, warnings            | Read/modify mileage, program cluster functions, test indicators          | ![ISM](images/ism.jpg)          |
-| **Gateway**         | Central communication hub                                         | Diagnose network, update firmware, configure module communication        | ![Gateway](images/gateway.jpeg) |
+| Module        | What It Does                                                      | What You Can Do With Tools                                               | Image                           |
+| ------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
+| **ECU**       | Engine Control Unit – manages fuel, ignition, emissions           | Read data, test sensors, reprogram ECU functions                         | ![ECU](images/ecu.jpg)          |
+| **TCU / VGS** | Transmission Control Unit – controls automatic gear shifts        | Test adaptive values, reset learned behavior, reprogram shifting logic   | ![TCU](images/tcu.jpg)          |
+| **EIS / EZS** | Electronic Ignition Switch – authorizes keys, manages immobilizer | Read module info, calculate passwords, program new keys, reset functions | ![EIS](images/eis.jpg)          |
+| **ELV / ESL** | Steering Lock – prevents unauthorized starts                      | Test locking/unlocking, program replacement locks, emulate ELV/ESL       | ![ELV](images/elv.jpg)          |
+| **ISM**       | Intelligent Servo Module – gear selector control                  | Renew ISM, bench test, communication test                                | ![ISM](images/ism.jpg)          |
+| **Gateway**   | Central communication hub                                         | Diagnose network, update firmware, configure module communication        | ![Gateway](images/gateway.jpeg) |
 
 > **Note:** The MK3 Full Test Platform Pro includes **built-in ELV/ESL emulators**, allowing you to test EIS/EZS even without the original steering lock. This is critical when performing bench testing or module repair.
 
