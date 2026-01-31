@@ -126,7 +126,28 @@ Based on the numbered legend in [Figure 3.3](#figure-33-mk3-side-panel-with-db-c
 
 - VVDI KTP Adapter
 - CGMB Adapter
--
+- DB25 Male to Female Adapter
+- 176 246 447 5P ESL/ELV Cable
+- 215 220 230 EZS/EIS Cable
+- 166 176 246 447 EZS/EIS Cable
+- 204 207 212 4P ESL/ELV Cable
+- 172 204 207 212 218 EZS/EIS Cable
+- 221 216 EZS/EIS Cable
+- 202 208 210 5P ESL/ELV Cable
+- 203 3P ESL/ELV Cable
+- 169 245 209 211 171 EZS/EIS Cable
+- 169 245 4P ESL/ELV Cable
+- ECUs Cable
+- 202 208 210 EZS/EIS Cable
+- 906 Sprinter Crafter EZS/EIS Cable
+- Dashboard Cable
+- ISM Cable
+- 7G/VGS Cable
+- 205 222 EZS/EIS Cable
+- 203 463 639 Vito EZS/EIS Cable
+- 164 251 EZS/EIS Cable
+- 203 209 211 219 639 906 5P ESL/ELV Cable
+- OBD Cable
 
 ## Why This Tool Matters
 
