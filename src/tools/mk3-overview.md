@@ -1,34 +1,133 @@
-# Mercedes‑Benz Full Test Platform Pro
+# Mercedes-Benz Full Test Platform Pro (MK24712)
 
-This tool lets you **bench test Mercedes control units** without needing the car connected.
+The **Mercedes-Benz Full Test Platform Pro** is a professional **on-bench testing, diagnostic, and programming platform** designed specifically for Mercedes-Benz electronic control units.
 
-It supports:
+Unlike basic key programmers, this tool allows you to **power, simulate, test, and interact with multiple Mercedes modules outside the vehicle**, making it essential for repair, diagnostics, renewals, and advanced programming work.
 
-- EZS/EIS testing and password reading
-- Steering lock (ELV/ESL) emulator
-- Gateway, Dashboard, ECUs, TCU, VGS, ISM testing
-- Compatibility with other programmers like CGDI, Autel, Abrites, VVDI MB Tool :contentReference[oaicite:2]{index=2}
+<img src="../images/mk3_test_platform.png" alt="MK3 Full Test Platform Pro" style="width:100%; height:auto;">
+    
+_Figure 3.1: Mercedes-Benz Full Test Platform Pro – supports EZS/EIS, ELV/ESL, dashboards, ECUs, TCU, ISM_
 
-## 📌 What it Can Do
+---
 
-- Test EIS/EZS units standalone
-- Test ESL/ELV and control them with or without original modules
-- Run diagnostics on many Mercedes‑Benz control modules
-- Read passwords fast using FAST calculation (FBS4) :contentReference[oaicite:3]{index=3}
+## What This Tool Is Designed For
 
-## 📷 Images
+The Full Test Platform Pro is built to:
 
-![Mercedes Test Platform Pro](https://www.mk3.com/images/uploaded/products/product/MK24712/Mercedes-Benz_Full_Test_Platform_Pro_for_EZS_EIS_ESL_ELV_Dash_Gateway_ECU_TCU_VGS_ISM-MK3.pdf)
-_Example tester layout_
+- Bench-test Mercedes control units **without the car**
+- Simulate missing modules (ELV/ESL, Gateway)
+- Work with **multiple aftermarket programming tools**
+- Support **FBS3 and FBS4 systems** with FAST calculation
+- Provide a safe environment for diagnostics and module repair
 
-## 🔧 How to Connect
+---
 
-1. Plug the device into your PC using a USB cable
-2. Attach the matching adapter cables for the module you want to test
-3. Open your diagnostic software
-4. Select the unit type (EIS, ESL, ECU, etc.)
-5. Start the test or password read operation
+## Front Panel – Physical Buttons
 
-_(Refer to the product PDF for cable pinouts and diagrams — this helps avoid wiring mistakes.)_
+The Mercedes-Benz Full Test Platform Pro has **three physical buttons** on the front panel. These buttons control **power, module routing, and operating mode**.
 
-📌 **Tip:** Always ensure the harness connectors are clean and oriented correctly before plugging in.
+<img src="../images/mk3_front_panel.png" alt="MK3 Front Panel" style="width:100%; height:auto;">
+    
+_Figure 3.2: MK3 Front Panel with Buttons_
+
+---
+
+### ॰ Button 1 (Power)
+
+**Function:**
+
+- Turns the test platform **ON / OFF**
+
+**Usage Notes:**
+
+- Must be **OFF** before connecting or disconnecting any module or cable
+- Power ON only after all cables are connected correctly
+- Power OFF before changing device mode or pin-out cables
+
+> ⚠️ Never hot-plug modules while the platform is powered ON.
+
+---
+
+### ॰ Button 2 (Device Switch)
+
+**Function:**
+
+- Selects the **active programming tool interface**
+- Routes communication and signal lines to match the selected programmer
+
+**Device Interfaces:**
+
+- VVDI
+- AUTEL
+- CGDI
+- ABRITES
+- VVDI PAD
+
+**Atention!** Different device have **different protocols**, selecting the correct device is mandatory for successful communication.
+
+**Usage Notes:**
+
+- Always select the device interface that matches the connected programming tool
+- Using the wrong device interface may result in:
+  - No communication
+  - Incorrect voltage routing
+  - Programming failure
+
+---
+
+### ॰ Button 3 (FAST / TEST)
+
+**Function:**
+
+- Switches between **FAST mode** and **TEST mode**
+
+**FAST Mode:**
+
+- Enables **FAST calculation** for [FBS3](./explanations/fbs/fbs.md) and [FBS4](./explanations/fbs/fbs4.md) systems
+- Used for:
+  - EIS / EZS password calculation
+  - Data collection
+  - Key programming support
+  - Security-related operations
+
+**TEST Mode:**
+
+- Used for **bench testing and diagnostics**
+- Powers modules for:
+  - Communication testing (e.g, Simulating ELV/ESL behavior)
+  - Module verification
+  - Renew and repair operations
+
+## Side Panel – D-Subminiature (DB) Connector Details
+
+The Test platform has **6 positions** to insert DB cable and **2 positions** for power and USB.
+Which is convenient for users to connect any control unit together and complete programming.
+
+<img src="../images/mk3_side_panel.png" alt="MK3 Side Panel" style="width:100%; height:auto;">
+    
+_Figure 3.3: MK3 Side Panel with DB Connectors_
+
+### ॰ Connector Functions
+
+Based on the numbered legend in [Figure 3.3](#figure-33-mk3-side-panel-with-db-connectors), here is a breakdown of what each port does:
+
+| No. | Label        | Function & Purpose                                                                                                                                                                     |
+| --- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Power        | The DC input port. This provides the necessary 12V power to the platform and all connected Mercedes modules.                                                                           |
+| 2   | Dashboard    | A DB9/DB15 style port used to connect the vehicle's Instrument Cluster. This allows you to check for mileage, warning lights, or communication errors on the bench.                    |
+| 3   | ISM / TCU    | Used for the Intelligent Servo Module (gear shifter) or Transmission Control Unit. Essential for **virginizing** or personalizing transmission components.                             |
+| 4   | EZS / EIS    | This connects to the Electronic Ignition Switch. This is the **brain** of the Mercedes security system where the key is inserted.                                                      |
+| 5   | ESL / ELV    | Connects to the Electronic Steering Lock. This is used to test if the steering lock is synchronizing properly with the key and ignition.                                               |
+| 6   | USB          | A Type-B USB port used to connect the platform to a computer for firmware updates or to interface with diagnostic software.                                                            |
+| 7   | ECUs         | Used to connect the Engine Control Unit. This is vital for testing the drive authorization system (FBS3/FBS4) to ensure the engine will actually start.                                |
+| 8   | OBD2 / TOOLS | This is the main interface for your diagnostic tools (like VVDI, Autel, Abrites, or CGDI). It acts as the bridge between your programmer and the modules connected to the other ports. |
+
+### ॰ Connector Cables and Adapters
+
+- VVDI KTP Adapter
+- CGMB Adapter
+-
+
+## Why This Tool Matters
+
+The Mercedes-Benz Full Test Platform Pro is not just a tester — it is a **controlled environment** for safely working with Mercedes security and control modules. It reduces risk, speeds up diagnostics, and makes complex module operations possible **without the vehicle present**.
