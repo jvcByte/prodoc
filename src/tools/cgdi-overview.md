@@ -1,7 +1,5 @@
 # CGDI MB Overview
 
-# CGDI Prog MB Benz Key Programmer
-
 This tool is designed to **program keys and read Mercedes modules**, especially helpful when:
 
 - All keys are lost
@@ -18,8 +16,9 @@ This tool is designed to **program keys and read Mercedes modules**, especially 
 
 ## Images
 
-![CGDI MB Prog tool](https://www.cgdiprog.com/uploads/item/168163598629081163.pdf)
-_CGDI Prog MB Benz key programmer overview_
+<img src="../images/cgdi_mb_prog.png" alt="CGMB" style="width:100%; height:auto;">
+
+_Figure 4.1: CGDI Prog MB Benz key programmer overview_
 
 ## Basic Workflow
 

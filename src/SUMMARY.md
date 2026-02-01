@@ -7,6 +7,7 @@
 
 - [MK3 Platform Overview](tools/mk3-overview.md)
 - [CGDI MB Overview](tools/cgdi-overview.md)
+- [CGDI MB and MK3 Platform](tools/cgdi-and-mk3.md)
 - [FBS](tools/explanations/fbs/fbs.md)
 - [FBS3](tools/explanations/fbs/fbs3.md)
 - [FBS4](tools/explanations/fbs/fbs4.md)
