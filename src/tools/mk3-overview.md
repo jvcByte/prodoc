@@ -124,32 +124,24 @@ Based on the numbered legend in [Figure 3.3](#figure-33-mk3-side-panel-with-db-c
 
 ### Connector Cables and Adapters
 
-<img src="../images/packing_list_1.png" alt="VVDI KTP Adapter" style="width:100%; height:auto;">
+<img src="../images/packing_list_1.png" alt="Adapters and DB Cables" style="width:100%; height:auto;">
+<img src="../images/packing_list_2.png" alt="DB Cables" style="width:100%; height:auto;">
+<img src="../images/packing_list_3.png" alt="DB Cables" style="width:100%; height:auto;">
 
-- VVDI KTP Adapter
-- CGMB Adapter
-- DB25 Male to Female Adapter
-- 176 246 447 5P ESL/ELV Cable
-- 215 220 230 EZS/EIS Cable
-- 166 176 246 447 EZS/EIS Cable
-- 204 207 212 4P ESL/ELV Cable
-- 172 204 207 212 218 EZS/EIS Cable
-- 221 216 EZS/EIS Cable
-- 202 208 210 5P ESL/ELV Cable
-- 203 3P ESL/ELV Cable
-- 169 245 209 211 171 EZS/EIS Cable
-- 169 245 4P ESL/ELV Cable
-- ECUs Cable
-- 202 208 210 EZS/EIS Cable
-- 906 Sprinter Crafter EZS/EIS Cable
-- Dashboard Cable
-- ISM Cable
-- 7G/VGS Cable
-- 205 222 EZS/EIS Cable
-- 203 463 639 Vito EZS/EIS Cable
-- 164 251 EZS/EIS Cable
-- 203 209 211 219 639 906 5P ESL/ELV Cable
-- OBD Cable
+|     |                                   |     |                                          |
+| --- | --------------------------------- | --- | ---------------------------------------- |
+| 2.  | VVDI KTP Adapter                  | 14. | 169 245 4P ESL/ELV Cable                 |
+| 3.  | CGMB Adapter                      | 15. | ECUs Cable                               |
+| 4.  | DB25 Male to Female Adapter       | 16. | 202 208 210 EZS/EIS Cable                |
+| 5.  | 176 246 447 5P ESL/ELV Cable      | 17. | 906 Sprinter Crafter EZS/EIS Cable       |
+| 6.  | 215 220 230 EZS/EIS Cable         | 18. | Dashboard Cable                          |
+| 7.  | 166 176 246 447 EZS/EIS Cable     | 19. | ISM Cable                                |
+| 8.  | 204 207 212 4P ESL/ELV Cable      | 20. | 7G/VGS Cable                             |
+| 9.  | 172 204 207 212 218 EZS/EIS Cable | 21. | 205 222 EZS/EIS Cable                    |
+| 10. | 221 216 EZS/EIS Cable             | 22. | 203 463 639 Vito EZS/EIS Cable           |
+| 11. | 202 208 210 5P ESL/ELV Cable      | 23. | 164 251 EZS/EIS Cable                    |
+| 12. | 203 3P ESL/ELV Cable              | 24. | 203 209 211 219 639 906 5P ESL/ELV Cable |
+| 13. | 169 245 209 211 171 EZS/EIS Cable | 25. | OBD Cable                                |
 
 ## Why This Tool Matters
 
