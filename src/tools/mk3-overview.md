@@ -107,7 +107,7 @@ Which is convenient for users to connect any control unit together and complete 
     
 _Figure 3.3: MK3 Side Panel with DB Connectors_
 
-### ॰ Connector Functions
+### Connector Functions
 
 Based on the numbered legend in [Figure 3.3](#figure-33-mk3-side-panel-with-db-connectors), here is a breakdown of what each port does:
 
@@ -122,7 +122,9 @@ Based on the numbered legend in [Figure 3.3](#figure-33-mk3-side-panel-with-db-c
 | 7   | ECUs         | Used to connect the Engine Control Unit. This is vital for testing the drive authorization system (FBS3/FBS4) to ensure the engine will actually start.                                |
 | 8   | OBD2 / TOOLS | This is the main interface for your diagnostic tools (like VVDI, Autel, Abrites, or CGDI). It acts as the bridge between your programmer and the modules connected to the other ports. |
 
-### ॰ Connector Cables and Adapters
+### Connector Cables and Adapters
+
+<img src="../images/packing_list_1.png" alt="VVDI KTP Adapter" style="width:100%; height:auto;">
 
 - VVDI KTP Adapter
 - CGMB Adapter
