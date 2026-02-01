@@ -8,7 +8,7 @@ This tool is designed to **program keys and read Mercedes modules**, especially 
 - You need to read EIS data and calculate passwords
 - You want to write or erase keys via infrared or OBD :contentReference[oaicite:4]{index=4}
 
-## 📌 Key Features
+## Key Features
 
 - Adds keys to Mercedes‑Benz cars even when all original keys are lost
 - Fastest key collection ~1:50 and password calculation ~40s with a high success rate
@@ -16,12 +16,12 @@ This tool is designed to **program keys and read Mercedes modules**, especially 
 - Can read EIS data via OBD or infrared
 - Displays EIS model, key status and other metadata :contentReference[oaicite:5]{index=5}
 
-## 📷 Images
+## Images
 
 ![CGDI MB Prog tool](https://www.cgdiprog.com/uploads/item/168163598629081163.pdf)
 _CGDI Prog MB Benz key programmer overview_
 
-## 🔌 Basic Workflow
+## Basic Workflow
 
 ### 1. Connect to the Vehicle
 
